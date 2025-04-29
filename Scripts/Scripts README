@@ -1,0 +1,1 @@
+This folder contains the python files that are used to clean the data obtained from the master csv files and sort them into different tables which are automatically uploaded to the sql database.
