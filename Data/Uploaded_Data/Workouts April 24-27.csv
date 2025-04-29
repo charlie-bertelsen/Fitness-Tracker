@@ -1,0 +1,5 @@
+Activity Type,Date,Favorite,Title,Distance,Calories,Time,Avg HR,Max HR,Aerobic TE,Avg Run Cadence,Max Run Cadence,Avg Pace,Best Pace,Total Ascent,Total Descent,Avg Stride Length,Avg Vertical Ratio,Avg Vertical Oscillation,Avg Ground Contact Time,Avg GAP,Normalized Power® (NP®),Training Stress Score®,Avg Power,Max Power,Steps,Total Reps,Total Sets,Decompression,Best Lap Time,Number of Laps,Moving Time,Elapsed Time,Min Elevation,Max Elevation
+Running,4/27/2025 13:44,FALSE,Bellingham Running,2.66,385,0:28:06,153,192,3.2,141,228,10:35,5:35,167,174,1.06,8,8.5,285,10:14,364,0,304,615,"3,970",--,--,No,05:32.2,3,0:27:59,0:29:14,448,509
+Strength Training,4/27/2025 12:26,FALSE,Strength,0,273,0:42:23,105,140,0.9,--,--,--,--,--,--,--,--,--,--,--,--,0,--,--,308,154,15,No,0:42:23,1,0:13:34,0:42:23,--,--
+Strength Training,4/26/2025 13:55,FALSE,Strength,0,240,0:36:08,104,153,0.9,--,--,--,--,--,--,--,--,--,--,--,--,0,--,--,176,88,11,No,0:36:08,1,09:26.7,0:36:08,--,--
+Strength Training,4/24/2025 19:37,FALSE,Strength,0,220,0:26:49,111,153,1.4,--,--,--,--,--,--,--,--,--,--,--,--,0,--,--,88,44,6,No,0:26:49,1,05:54.7,0:26:49,--,--
