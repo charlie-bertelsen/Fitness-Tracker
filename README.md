@@ -46,17 +46,30 @@ a
 
 
 
-##### Overview
+### Overview
+
+![image](https://github.com/user-attachments/assets/19f61038-9920-41e6-9887-ec8e2a7a4cf7)
 
 
+### Sleep
 
-##### Sleep
+![Sleep](https://github.com/user-attachments/assets/ef9b8054-2822-4bb7-a391-7fc0b4c20065)
 
-##### Workouts
 
-##### Nutrition
+### Workouts
 
-##### Stress
+![Workout](https://github.com/user-attachments/assets/c80a78c6-a5ba-4051-8cde-7a2b37c3e7e5)
+
+
+### Nutrition
+
+![Nutrition](https://github.com/user-attachments/assets/479f17af-e935-41d3-911a-ab2d975e649f)
+
+
+### Stress
+
+![Stress](https://github.com/user-attachments/assets/21315406-ca71-41b2-968f-b9e6521e074b)
+
 
 ### Results
 
