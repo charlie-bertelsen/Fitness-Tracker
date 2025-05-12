@@ -9,6 +9,17 @@
   - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
   - [SQL Schema](#SQL-Schema)
   - [Dashboards and Visualizations](#Dashboards-and-Visualizations)
+
+    - [Overview](#Overview)
+
+    - [Sleep](#Sleep)
+
+    - [Workouts](#Workouts)
+
+    - [Nutrition](#Nutrition)
+
+    - [Stress](#Stress)
+    
   - [Results](#Results)
   - [Future Work](#Future-Work)
   - [Limitations](#Limitations)
