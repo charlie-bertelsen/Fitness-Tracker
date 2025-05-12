@@ -35,23 +35,16 @@ The data in this project is sourced from Garmin Connect and Cronometer. Both of 
 Garmin connect is an app that stores the fitness data collected by my garmin watch that I have been wearing consistently to track my progress. The information collected by the garmin includes my sleep, workout, heart rate, stress, weight and more. Cronometer is the nutrition tracking app that I use to enter in every single calorie and nutrient that I have been consuming. Cronometer details all information pertaining to nutrition including calories consumed, primary macronutrients, amino acids, minerals and vitamins. 
 
 ### Tools
-a
-a
-a
-a
 
-a
-a
-a
-a
+- Python : Pandas, SQLAlchemy
+- MySQL : Database creation, queries
+- Microsoft PowerBI : Dashboards, data visualization
 
-a
-a
+  
 ### Data Cleaning and Processing
 
 ### Exploratory Data Analysis
 
-### SQL Schema
 
 ### Dashboards and Visualizations
 
@@ -80,6 +73,11 @@ a
 ### Stress
 
 ![Stress](https://github.com/user-attachments/assets/21315406-ca71-41b2-968f-b9e6521e074b)
+
+
+### SQL Schema
+
+![Updated_FT_ERD](https://github.com/user-attachments/assets/539373e2-2d7b-4165-b345-3b613c2cb674)
 
 
 ### Results
