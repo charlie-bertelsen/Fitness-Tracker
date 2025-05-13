@@ -82,6 +82,41 @@ Garmin connect is an app that stores the fitness data collected by my garmin wat
 
 ### Results
 
+While 
+
 ### Future Work
 
+To enhance the functionality of this fitness tracking system, several improvements and feature expansions are planned for future development:
+
+#### 1. Automated Data Integration
+
+Implement API connections to Garmin, Cronometer, and other platforms to automate data extraction and eliminate the need for manual CSV uploads.
+
+#### 2. Multi-User Support
+
+Extend the current schema to support multiple users.
+
+#### 3. Predictive Analytics and Goal Tracking
+
+Integrate machine learning models to predict various metrics and provide user-based recommendations.
+
 ### Limitations
+
+While this project provides a comprehensive approach to tracking and analyzing personal fitness data, it has several limitations that users and reviewers should be aware of:
+
+#### 1. Data Source Accuracy
+
+While the garmin can be a very good tool at getting estimates, it may not always provide fully accurate measurements for calories burned, heart rate, or sleep quality. Variability across devices and sensor algorithms can lead to inconsistencies. Manually entered data introduces the potential for human error and inconsistency in logging.
+
+#### 2. Manual Data
+
+Certain data (e.g., nutrition logs or body composition metrics) require manual CSV export and import into the database. This process is time-consuming and prone to formatting issues or missing entries. There is currently no real-time automation or API integration which makes it more difficult to use.
+
+#### 3. Single-User Focus
+
+Although the database is designed to support multiple users, there is currently only one user. Additional development would be required to fully scale this for multi-user use cases, including user authentication and privacy features.
+
+#### 4. Predictive Analytics
+
+The current project focuses on data tracking and visualization rather than forecasting or goal-setting algorithms. Future versions could benefit greatly from integrating machine learning or predictive modeling to provide personalized insights.
+
