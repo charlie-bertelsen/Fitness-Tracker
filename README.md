@@ -28,6 +28,12 @@
 
 This project is an end-to-end pipeline that tracks and analyzes personal fitness, nutrition, and wellness data. It extracts data from wearable exports .csv files, transforms it using Python, stores it in a MySQL database, and visualizes trends through Power BI dashboards.
 
+### Project Questions
+
+1. How does my actual sleep duration compare to my sleep needed?
+2. How do my average daily macronutrient intakes compare with my nutritional goals?
+3. How important is consistency in reaching my fitness goals?
+
 ### Data Sources
 
 The data in this project is sourced from Garmin Connect and Cronometer. Both of these apps allow for .csv data export which I run through the ETL process, sorting the .csv files and uploading them to my fitness tracker database.
@@ -36,21 +42,33 @@ Garmin connect is an app that stores the fitness data collected by my garmin wat
 
 ### Tools
 
-- Python : Pandas, SQLAlchemy
-- MySQL : Database creation, queries
-- Microsoft PowerBI : Dashboards, data visualization
-
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
+![MySQL](https://img.shields.io/badge/MySQL-Relational%20Database-blue)
   
 ### Data Cleaning and Processing
 
-### Exploratory Data Analysis
+The data in this project was obtained by exporting .csv files from Garmin and Cronometer. It was then cleaned and standardized using Python. The ETL script handled these steps:
 
+- Date formatting and consistency across all sources
+
+- Missing value handling, filtering out incomplete entries
+
+- Unit conversions
+
+- Column renaming
+
+- Duplicate row removal
+
+After these steps were completed, processed data was then loaded into a MySQL database via SQLAlchemy which sorted the data into various tables.
 
 ### Dashboards and Visualizations
 
-
+This project features a series of interactive Power BI dashboards that provide actionable insights across multiple aspects of personal health and fitness. Key metrics such as sleep quality, stress levels, heart rate, and nutritional intake are visualized through a mix of KPI cards, time series charts, scatter plots, and various other visuals visuals. The dashboards are designed for clarity, interactivity, and performance tracking, with an overview page that summarizes the key charts and findings.
 
 ### Overview
+
+Below are screenshots and explanations of each dashboard designed in Power BI to explore different facets of fitness tracking:
 
 ![image](https://github.com/user-attachments/assets/19f61038-9920-41e6-9887-ec8e2a7a4cf7)
 
@@ -82,7 +100,9 @@ Garmin connect is an app that stores the fitness data collected by my garmin wat
 
 ### Results
 
-While 
+This project has revealed several key insights into my current health and fitness habits. First, I found that my actual sleep duration consistently fell short of my sleep needs, often by over an hour, which can have compounding effects on recovery, cognitive performance, and training readiness. While I was still maintaining an average of 7.97 hours of sleep a night, my goal of 9 hours of sleep would optimize muscle synthesis and recovery. Additionally, in examining my macronutrient intake, I discovered that I was consuming significantly more fat than needed while consistently under-consuming both protein and carbohydrates. This imbalance not only moves me further from my goal of eating in a surplus to support muscle growth, but also limits my ability to fuel workouts effectively. Even If I am disciplined throughout the week, one poor day of eating can be detrimental to reaching long-term caloric and nutrient goals.
+
+The results of this project have emphasized the critical role of consistency. Even a couple of poor sleep or nutrition days can offset disciplined effort, undermining overall progress. These findings reinforce the idea that sustained daily habits are the key to reaching long-term fitness goals. Improving consistency in both sleep and nutrition will be essential to move forward with my fitness goals.
 
 ### Future Work
 
