@@ -66,9 +66,9 @@ After these steps were completed, processed data was then loaded into a MySQL da
 
 This project features a series of interactive Power BI dashboards that provide actionable insights across multiple aspects of personal health and fitness. Key metrics such as sleep quality, stress levels, heart rate, and nutritional intake are visualized through a mix of KPI cards, time series charts, scatter plots, and various other visuals visuals. The dashboards are designed for clarity, interactivity, and performance tracking, with an overview page that summarizes the key charts and findings.
 
-### Overview
-
 Below are screenshots and explanations of each dashboard designed in Power BI to explore different facets of fitness tracking:
+
+### Overview
 
 ![image](https://github.com/user-attachments/assets/19f61038-9920-41e6-9887-ec8e2a7a4cf7)
 
